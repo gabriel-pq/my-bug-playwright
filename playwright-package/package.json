@@ -1,0 +1,15 @@
+{
+  "name": "playwright-package",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-package": "*"
+  },
+  "devDependencies": {
+    "playwright": "^1.33.0",
+    "@playwright/test": "^1.33.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "my-bug-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm --workspace playwright-package test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.33.0",
+    "react": "18.2",
+    "@playwright/test": "^1.33.0"
+  },
+  "workspaces": [
+    "react-package",
+    "playwright-package"
+  ]
+}
